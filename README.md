@@ -15,7 +15,7 @@ This repository contains a Dockerfile to build a custom JupyterHub server image 
 The container image is available on DockerHub Registry. You can pull the pre-built image using the following command:
 
 ```bash
-docker pull seblum/jupyterhub-server-image:latest
+docker pull seblum/jupyterhub-server:latest
 ```
 
 ## How to Use
