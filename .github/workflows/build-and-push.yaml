@@ -2,7 +2,7 @@ name: JupyterLab CD
 
 env:
   DOCKERREPO: seblum/jupyterhub-server-image
-  TAG: v1.0.0
+  TAG: latest
 
 on:
   push:
