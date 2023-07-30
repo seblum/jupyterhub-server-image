@@ -1,6 +1,6 @@
 # JupyterHub Server Image
 
-[![Docker Image](https://img.shields.io/docker/pulls/seblum/jupyterhub-server-image.svg)](https://hub.docker.com/r/seblum/jupyterhub-server-image)
+[![Docker Image](https://img.shields.io/docker/pulls/seblum/jupyterhub-server.svg)](https://hub.docker.com/r/seblum/jupyterhub-server)
 
 This repository contains a Dockerfile to build a custom JupyterHub server image that includes Jupyter Server Proxy. The image enables seamless integration between Jupyter Data Science notebooks and Visual Studio Code.
 
