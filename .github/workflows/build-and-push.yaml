@@ -1,4 +1,4 @@
-name: jupyterHub-Server CD
+name: JupyterHub-Server CD
 
 env:
   DOCKERREPO: seblum/jupyterhub-server
