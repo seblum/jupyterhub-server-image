@@ -1,4 +1,6 @@
 FROM jupyter/datascience-notebook:latest
+# jupyterhub/k8s-hub
+
 #jupyterhub/jupyterhub:latest 
 #(should work with any base image from JupyterLab project) 
 # jupyter/base-notebook
@@ -34,6 +36,9 @@ RUN curl -fOL https://github.com/coder/code-server/releases/download/v$CODE_VERS
     && rm -f code-server_${CODE_VERSION}_amd64.deb
 RUN /opt/conda/bin/conda install -c conda-forge jupyter-server-proxy
 RUN /opt/conda/bin/conda install -c conda-forge jupyter-vscode-proxy
+
+# RUN code-server --install-extension oderwat.indent-rainbow
+
 
 # Installation of the XFCE office and the extension of the Desktop server for a number of graphic attachments
 RUN apt-get update --yes --quiet && \
