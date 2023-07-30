@@ -1,4 +1,4 @@
-name: JupyterLab CD
+name: jupyterHub-Server CD
 
 env:
   DOCKERREPO: seblum/jupyterhub-server
