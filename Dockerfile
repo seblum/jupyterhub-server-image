@@ -38,7 +38,7 @@ RUN /opt/conda/bin/conda install -c conda-forge jupyter-server-proxy
 RUN /opt/conda/bin/conda install -c conda-forge jupyter-vscode-proxy
 
 # RUN code-server --install-extension oderwat.indent-rainbow
-
+# https://jupyter-server-proxy.readthedocs.io/en/latest/convenience/packages/theia.html
 
 # Installation of the XFCE office and the extension of the Desktop server for a number of graphic attachments
 RUN apt-get update --yes --quiet && \
